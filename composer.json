@@ -1,7 +1,7 @@
 {
-  "name": "roots/sage-lib",
+  "name": "your-username/sage-lib",
   "license": "MIT",
-  "description": "Library files for Sage Starter Theme",
+  "description": "Library files for Sage Starter Theme - Laravel 10 compatible",
   "homepage": "https://roots.io/sage/",
   "authors": [
     {
@@ -19,7 +19,7 @@
     "wordpress"
   ],
   "support": {
-    "issues": "https://github.com/roots/sage-lib/issues",
+    "issues": "https://github.com/your-username/sage-lib/issues",
     "forum": "https://discourse.roots.io/"
   },
   "autoload": {
@@ -28,10 +28,13 @@
     }
   },
   "require": {
-    "php": ">=7.1",
+    "php": "^8.2",
     "composer/installers": "~1.0",
-    "illuminate/view": "~5.6",
-    "illuminate/config": "~5.6"
+    "illuminate/view": "^10.0",
+    "illuminate/config": "^10.0",
+    "illuminate/container": "^10.0",
+    "illuminate/events": "^10.0",
+    "illuminate/support": "^10.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "~3.3.1"
