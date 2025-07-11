@@ -2,6 +2,8 @@
 
 namespace Roots\Sage;
 
+use Closure;
+
 use Illuminate\Container\Container as BaseContainer;
 
 class Container extends BaseContainer
